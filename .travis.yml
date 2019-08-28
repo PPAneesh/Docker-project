@@ -7,4 +7,4 @@ before_install:
 
 script:
 
-  - docker run ppaneesh/docker-project npm run test -- -- coverage
+  - docker run ppaneesh/docker-project npm run test -- --coverage
